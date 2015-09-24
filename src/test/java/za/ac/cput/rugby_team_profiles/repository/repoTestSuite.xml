@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestAll">
+    <test name="order">
+        <classes>
+            <class name="za.ac.cput.rugby_team_profiles.repository.Fixtures_CrudTest" />
+            <class name="za.ac.cput.rugby_team_profiles.repository.LogTestCrud" />
+        </classes>
+    </test>
+</suite>
