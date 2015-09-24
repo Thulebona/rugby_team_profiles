@@ -1,4 +1,4 @@
-package za.ac.cput.rugby_team_profiles.api.Json;
+package za.ac.cput.rugby_team_profiles.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
