@@ -24,9 +24,17 @@
         <processorPath useClasspath="true" />
         <module name="rugby_team_profiles" />
       </profile>
+      <profile default="false" name="Annotation profile for rugbyTeamProfiles" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="rugbyTeamProfiles" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="rugby_team_profiles" target="1.8" />
+      <module name="rugbyTeamProfiles" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
