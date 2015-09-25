@@ -1,7 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d392d03-66c0-43e3-89fb-24a8fcd3b6a5" name="Default" comment="" />
+    <list default="true" id="2d392d03-66c0-43e3-89fb-24a8fcd3b6a5" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\application.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\App.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\api\Hateos\View_Profile.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\api\Landing_page.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\api\View_Fixture.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\api\View_profile.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Fixtures$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Fixtures.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Match_Results$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Match_Results.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Player_Records$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Player_Records.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Player_profile$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Player_profile.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Team_Records$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Team_Records.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Team_profile$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Team_profile.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Teams_log_ranking$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Teams_log_ranking.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Venue$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\domain\Venue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\FixturesFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\Match_ResultsFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\Player_RecordsFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\Player_profileFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\Team_RecordsFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\Team_profileFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\Teams_logFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\factory\VenueFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\module\TeamResource$Builder.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\module\TeamResource.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\repository\FixturesRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\repository\Match_ResultsRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\repository\Player_profileRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\repository\Team_profileRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\repository\Teams_log_rankingRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\services\FixturesServices.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\services\Imp\FixturesServicesImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\services\Imp\LogRenkingServicesImp.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\classes\za\ac\cput\rugby_team_profiles\services\LogRankingServices.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\maven-status\maven-compiler-plugin\testCompile\default-testCompile\inputFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\rugby_team_profiles-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\rugby_team_profiles-1.0-SNAPSHOT.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\TEST-TestSuite.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\TestSuite.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\Surefire suite\Surefire test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\Surefire suite\Surefire test.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\failed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\junitreports\TEST-za.ac.cput.rugby_team_profiles.AppTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\junitreports\TEST-za.ac.cput.rugby_team_profiles.domain.VenueTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\Surefire test.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\classes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\groups.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\main.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\methods.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\Surefire suite\toc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\old\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\passed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-junit-results\testng.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\Surefire suite\Surefire test.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\Surefire suite\Surefire test.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\bullet_point.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\collapseall.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\emailable-report.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\failed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\jquery-1.7.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\navigator-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\Surefire test.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\classes.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\groups.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\main.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\methods-alphabetical.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\methods-not-run.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\methods.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\reporter-output.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\testng.xml.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\Surefire suite\toc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\old\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\passed.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\skipped.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\testng-reports.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\testng-reports.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\testng-results.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\surefire-reports\testng-native-results\testng.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\AppTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\FixtureTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\Match_Results_Test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\Player_profile_test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\Player_record_test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\Team_Record_test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\Team_profile_test.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\Teams_logTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\TestSuite.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\domain\VenueTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\repository\Fixtures_CrudTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\repository\LogTestCrud.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\services\FixturesServicesTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\thule\IdeaProjects\rugby_team_profiles\target\test-classes\za\ac\cput\rugby_team_profiles\services\LogRankingServicesTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="rugby_team_profiles.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -263,20 +385,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rugby_team_profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rugby_team_profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rugby_team_profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -572,6 +680,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rugby_team_profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rugby_team_profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".openshift" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="action_hooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -851,16 +977,16 @@
       <option name="number" value="Default" />
       <updated>1443099846615</updated>
       <workItem from="1443099850981" duration="4982000" />
-      <workItem from="1443179787306" duration="1276000" />
+      <workItem from="1443179787306" duration="1823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6258000" />
+    <option name="totallyTimeSpent" value="6805000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -871,7 +997,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3566009" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3566009" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
