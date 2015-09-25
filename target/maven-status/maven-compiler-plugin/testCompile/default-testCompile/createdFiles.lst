@@ -1,0 +1,14 @@
+za\ac\cput\rugby_team_profiles\domain\VenueTest.class
+za\ac\cput\rugby_team_profiles\services\FixturesServicesTest.class
+za\ac\cput\rugby_team_profiles\domain\TestSuite.class
+za\ac\cput\rugby_team_profiles\domain\Match_Results_Test.class
+za\ac\cput\rugby_team_profiles\domain\Player_profile_test.class
+za\ac\cput\rugby_team_profiles\domain\Player_record_test.class
+za\ac\cput\rugby_team_profiles\domain\Teams_logTest.class
+za\ac\cput\rugby_team_profiles\domain\Team_Record_test.class
+za\ac\cput\rugby_team_profiles\repository\LogTestCrud.class
+za\ac\cput\rugby_team_profiles\domain\Team_profile_test.class
+za\ac\cput\rugby_team_profiles\repository\Fixtures_CrudTest.class
+za\ac\cput\rugby_team_profiles\services\LogRankingServicesTest.class
+za\ac\cput\rugby_team_profiles\AppTest.class
+za\ac\cput\rugby_team_profiles\domain\FixtureTest.class

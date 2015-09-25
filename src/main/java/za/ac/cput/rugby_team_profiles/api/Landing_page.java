@@ -5,8 +5,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import za.ac.cput.rugby_team_profiles.domain.Team_profile;
 
-import java.lang.reflect.Method;
-
 /**
  * Created by thule on 2015/09/24.
  */
