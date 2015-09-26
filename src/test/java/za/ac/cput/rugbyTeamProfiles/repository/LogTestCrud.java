@@ -55,7 +55,7 @@ public class LogTestCrud extends AbstractTestNGSpringContextTests {
         playRec_value = new HashMap<String, String>();
     }
 
-    @Test
+   // @Test
     public void testCreate() throws Exception {
         //add team profile map;
         value.put("teamName", "Sharks");
