@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d392d03-66c0-43e3-89fb-24a8fcd3b6a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Services.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/TeamService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/TeamServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServices.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServices.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/ViewProfile.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/ViewProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java" />
     </list>
     <ignored path="rugby_team_profiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,21 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewProfile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewProfile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/ViewProfile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3709677">
-              <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/LandingPage.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -123,21 +108,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogRankingServicesTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="115" column="59" selection-start-line="115" selection-start-column="59" selection-end-line="115" selection-end-column="59" />
+              <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogTestCrud.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java">
+      <file leaf-file-name="spring-boot-starter-parent-1.2.6.RELEASE.pom" pinned="false" current-in-tab="false">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.2.6.RELEASE/spring-boot-starter-parent-1.2.6.RELEASE.pom">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+              <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSuite.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37260273">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,7 +201,6 @@
         <option value="$PROJECT_DIR$/rugbyTeamProfiles.iml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/ViewFixture.java" />
-        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Services.java" />
@@ -214,6 +208,7 @@
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/TeamService.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/TeamServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/ViewProfile.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java" />
       </list>
     </option>
   </component>
@@ -369,6 +364,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rugby_team_profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rugby_team_profiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rugbyTeamProfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -885,7 +910,7 @@
       <workItem from="1443099850981" duration="4982000" />
       <workItem from="1443179787306" duration="3925000" />
       <workItem from="1443184456729" duration="877000" />
-      <workItem from="1443256043459" duration="6915000" />
+      <workItem from="1443256043459" duration="7685000" />
     </task>
     <task id="LOCAL-00001" summary="fixed the routes">
       <created>1443261603426</created>
@@ -897,7 +922,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16699000" />
+    <option name="totallyTimeSpent" value="17469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -911,7 +936,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32764506" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -982,13 +1007,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerRecords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/domain/TeamRecords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1257,14 +1275,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/domain/TeamProfile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1278,16 +1288,6 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1389,9 +1389,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/ViewProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3709677">
+        <state vertical-scroll-proportion="0.0">
           <caret line="60" column="15" selection-start-line="60" selection-start-column="15" selection-end-line="60" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="14" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.2.6.RELEASE/spring-boot-starter-parent-1.2.6.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37260273">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
