@@ -13,6 +13,7 @@ import za.ac.cput.rugbyTeamProfiles.domain.TeamsLogRanking;
 import za.ac.cput.rugbyTeamProfiles.repository.TeamProfileRepository;
 import za.ac.cput.rugbyTeamProfiles.repository.TeamsLogRankingRepository;
 import za.ac.cput.rugbyTeamProfiles.services.LogRankingServices;
+import za.ac.cput.rugbyTeamProfiles.services.TeamService;
 
 import java.util.List;
 
@@ -25,13 +26,12 @@ import java.util.List;
 public class ViewProfile {
 
     @Autowired
-    LogRankingServices services;
-    TeamProfileRepository repository;
+    TeamService service;
     //-------------------Retrieve All teams--------------------------------------------------------
 
     @RequestMapping(value="/teams", method= RequestMethod.GET)///get teams
-    public ResponseEntity<List<TeamsLogRanking>> getTeams(){
-        List<TeamsLogRanking> teams = services.getAllTeams();
+    public ResponseEntity<List<TeamProfile>> getTeams(){
+        List<TeamProfile> teams = service.findAll();
         if(teams.isEmpty()){
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
         }
@@ -42,7 +42,7 @@ public class ViewProfile {
 
     @RequestMapping(value = "/team/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<TeamProfile> getSubject(@PathVariable("id") long id) {
-        TeamProfile teamProfile = services.getTeam(id);
+        TeamProfile teamProfile = service.findById(id);
         if (teamProfile == null) {
            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
@@ -58,7 +58,7 @@ public class ViewProfile {
 //            return new ResponseEntity<Void>(HttpStatus.CONFLICT);
 //        }
 
-        repository.save(teamProfile);
+        service.save(teamProfile);
         HttpHeaders headers = new HttpHeaders();
         headers.setLocation(ucBuilder.path("/team/{id}").buildAndExpand(teamProfile.getId()).toUri());
         return new ResponseEntity<>(headers, HttpStatus.CREATED);

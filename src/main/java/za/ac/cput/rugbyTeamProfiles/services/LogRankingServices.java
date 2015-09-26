@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by THULEBONA on 2015-05-20.
  */
-public interface LogRankingServices {
+public interface LogRankingServices  {
 
 
     List<TeamsLogRanking> getAllTeams();
