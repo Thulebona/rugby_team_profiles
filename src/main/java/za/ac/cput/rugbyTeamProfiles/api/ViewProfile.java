@@ -12,6 +12,7 @@ import za.ac.cput.rugbyTeamProfiles.domain.TeamProfile;
 import za.ac.cput.rugbyTeamProfiles.domain.TeamsLogRanking;
 import za.ac.cput.rugbyTeamProfiles.repository.TeamProfileRepository;
 import za.ac.cput.rugbyTeamProfiles.repository.TeamsLogRankingRepository;
+import za.ac.cput.rugbyTeamProfiles.services.Imp.TeamServiceImpl;
 import za.ac.cput.rugbyTeamProfiles.services.LogRankingServices;
 import za.ac.cput.rugbyTeamProfiles.services.TeamService;
 
@@ -25,8 +26,7 @@ import java.util.List;
 @RequestMapping("/api/**")
 public class ViewProfile {
 
-    @Autowired
-    TeamService service;
+    private TeamService service = new TeamServiceImpl();
     //-------------------Retrieve All teams--------------------------------------------------------
 
     @RequestMapping(value="/teams", method= RequestMethod.GET)///get teams
