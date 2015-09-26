@@ -17,32 +17,35 @@ import java.util.List;
 @Service
 public class LogRenkingServicesImp implements LogRankingServices {
     @Autowired
-    TeamsLogRankingRepository logRankingRepository;
-    @Override
-    public List<TeamsLogRanking> getAllTeams() {
+    TeamsLogRankingRepository repository;
 
-        List<TeamsLogRanking> ranking = new ArrayList<>();
-        Iterable<TeamsLogRanking> teams_log = logRankingRepository.findAll();
-        for (TeamsLogRanking rank: teams_log)
-        {
-         ranking.add(rank);
+    @Override
+    public TeamsLogRanking findById(Long id) {
+        return repository.findOne(id);
+    }
+
+    @Override
+    public TeamsLogRanking save(TeamsLogRanking entity) {
+        return repository.save(entity);
+    }
+
+    @Override
+    public TeamsLogRanking update(TeamsLogRanking entity) {
+        return repository.save(entity);
+    }
+
+    @Override
+    public void delete(TeamsLogRanking entity) {
+        repository.delete(entity);
+    }
+
+    @Override
+    public List<TeamsLogRanking> findAll() {
+        List<TeamsLogRanking> log = new ArrayList<>();
+        Iterable<TeamsLogRanking> allTeams = repository.findAll();
+        for (TeamsLogRanking teams : allTeams) {
+            log.add(teams);
         }
-        return ranking;
-    }
-
-
-    @Override
-    public TeamProfile getTeam(Long id) {
-        return logRankingRepository.findOne(id).getTeam();
-    }
-
-    @Override
-    public List<PlayerProfile> getPlayers(Long id) {
-        return logRankingRepository.findOne(id).getTeam().getPlayers();
-    }
-
-    @Override
-    public PlayerProfile getPlayer(Long id,Integer index) {
-        return logRankingRepository.findOne(id).getTeam().getPlayers().get(index.intValue());
+        return log;
     }
 }
