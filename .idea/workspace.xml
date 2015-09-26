@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d392d03-66c0-43e3-89fb-24a8fcd3b6a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/api/LandingPage.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/api/LandingPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile$Builder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/factory/PlayerProfileFactory.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/factory/PlayerProfileFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/api/PlayersProfileApi.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/api/PlayersProfileApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/App.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/LandingPage.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/LandingPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/LogRankingApi.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/LogRankingApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/factory/PlayerProfileFactory.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/factory/PlayerProfileFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/PlayerProfileProfileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/PlayerProfileProfileServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/PlayersProfileApi.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/PlayersProfileApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/TeamProfileApi.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/TeamProfileApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/TeamProfileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/TeamProfileServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rugbyTeamProfiles.iml" afterPath="$PROJECT_DIR$/rugbyTeamProfiles.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rugby_team_profiles.iws" />
@@ -125,16 +100,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogRenkingServicesImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/LogRenkingServicesImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FixturesServicesImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/FixturesServicesImpl.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -147,11 +112,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerProfileProfileServiceImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlayerProfileProfileServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/PlayerProfileProfileServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6953405">
+            <state vertical-scroll-proportion="0.0">
               <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3046595">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -236,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/PlayerProfileService.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServices.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/LogRenkingServicesImp.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/factory/PlayerProfileFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java" />
@@ -250,6 +224,7 @@
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/PlayersProfileApi.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/PlayerProfileProfileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -634,54 +609,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="domain" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rugby_team_profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rugby_team_profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rugbyTeamProfiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rugby_team_profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rugby_team_profiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".openshift" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action_hooks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1090,7 +1017,7 @@
       <workItem from="1443179787306" duration="3925000" />
       <workItem from="1443184456729" duration="877000" />
       <workItem from="1443256043459" duration="8227000" />
-      <workItem from="1443270746803" duration="17508000" />
+      <workItem from="1443270746803" duration="17697000" />
     </task>
     <task id="LOCAL-00001" summary="fixed the routes">
       <created>1443261603426</created>
@@ -1102,7 +1029,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35519000" />
+    <option name="totallyTimeSpent" value="35708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1369,14 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/FixturesServicesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1635,8 +1554,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/services/Imp/PlayerProfileProfileServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6953405">
+        <state vertical-scroll-proportion="0.0">
           <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3046595">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
