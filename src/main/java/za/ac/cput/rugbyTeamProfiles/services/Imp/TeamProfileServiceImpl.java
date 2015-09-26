@@ -1,6 +1,7 @@
 package za.ac.cput.rugbyTeamProfiles.services.Imp;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import za.ac.cput.rugbyTeamProfiles.domain.TeamProfile;
 import za.ac.cput.rugbyTeamProfiles.repository.TeamProfileRepository;
 import za.ac.cput.rugbyTeamProfiles.services.TeamProfileService;
@@ -11,6 +12,7 @@ import java.util.List;
 /**
  * Created by thule on 2015/09/26.
  */
+@Service
 public class TeamProfileServiceImpl implements TeamProfileService {
     @Autowired
     TeamProfileRepository repository;

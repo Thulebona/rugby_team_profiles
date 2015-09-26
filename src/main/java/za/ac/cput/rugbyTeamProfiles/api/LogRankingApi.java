@@ -1,13 +1,10 @@
 package za.ac.cput.rugbyTeamProfiles.api;
 
-import org.springframework.http.HttpHeaders;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.util.UriComponentsBuilder;
 import za.ac.cput.rugbyTeamProfiles.domain.TeamsLogRanking;
-import za.ac.cput.rugbyTeamProfiles.services.Imp.LogRenkingServicesImp;
 import za.ac.cput.rugbyTeamProfiles.services.LogRankingServices;
 
 import java.util.List;
@@ -18,7 +15,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/**")
 public class LogRankingApi  {
-    private LogRankingServices service = new LogRenkingServicesImp();
+    @Autowired
+    LogRankingServices service/* = new LogRenkingServicesImp()*/;
     //-------------------Retrieve All teams--------------------------------------------------------
 
     @RequestMapping(value="/log", method= RequestMethod.GET)///get teams

@@ -12,7 +12,7 @@ public class PlayerProfileFactory {
 
 
     public static PlayerProfile getPlayer_profile(Map<String,String> myStings ,Map<String,Integer> myInt,
-                                                  Map<String,Double> myDouble, PlayerRecords rec/*,TeamProfile team_profile*/) {
+                                                  Map<String,Double> myDouble/*, PlayerRecords rec/*,TeamProfile team_profile*/) {
 
         PlayerProfile player = new PlayerProfile.Builder(myStings.get("playerID"))
                                     .player_name(myStings.get("player_name"))
@@ -22,7 +22,7 @@ public class PlayerProfileFactory {
                                     .test(myInt.get("test"))
                                     .test_tries(myInt.get("test_tries"))
                                     .weight(myDouble.get("weight"))
-                                    .player_record(rec)
+                                    //.player_record(rec)
                                    // .team_profile(team_profile)
                                     .build();
 

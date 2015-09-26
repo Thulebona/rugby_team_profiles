@@ -40,7 +40,7 @@ public class PlayerProfileTest extends TestCase{
         myString.put("position","block");
 
         //rec = new PlayerRecords.Builder(player).build();
-        player = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble, rec/*, prof*/);
+        player = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble/*, rec/*, prof*/);
 
         assertEquals(50.00,player.getWeight());
     }
@@ -55,7 +55,7 @@ public class PlayerProfileTest extends TestCase{
         myInt.put("test",5);
         myInt.put("test_tries",6);
         myString.put("position","block");
-        player = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble, rec/*, prof*/);
+        player = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble/*, prof*/);
 
         PlayerProfile newPlayer = new PlayerProfile.Builder(player.getPlayerID())
                                        .copy(player)

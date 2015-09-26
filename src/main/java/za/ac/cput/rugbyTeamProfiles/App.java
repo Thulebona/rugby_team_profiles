@@ -14,10 +14,12 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @ComponentScan
 @EnableWebMvc
 @EnableAutoConfiguration
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-        SpringApplication.run(App.class, args);
+public class App
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+        SpringApplication.run(App.class,args);
     }
 }
 

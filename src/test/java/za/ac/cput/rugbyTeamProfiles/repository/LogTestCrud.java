@@ -77,7 +77,7 @@ public class LogTestCrud extends AbstractTestNGSpringContextTests {
         myDouble.put("weight",116.0);
         myInt.put("test",50);
         myInt.put("test_tries", 8);
-        player = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble, player_rec/*,team*/);
+        player = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble/*, player_rec/*,team*/);
 
         // add PlayerProfile 1
         myString.put("playerID", "841206 6951 088");
@@ -93,7 +93,7 @@ public class LogTestCrud extends AbstractTestNGSpringContextTests {
         playRec_value.put("recordDescription","best player of the year");
 
         player_rec = PlayerRecordsFactory.getPlayer_Record(playRec_value/*, player*/);
-        player2 = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble, player_rec/*,team*/);
+        player2 = PlayerProfileFactory.getPlayer_profile(myString, myInt, myDouble/*, player_rec/*,team*/);
         team_rec = TeamRecordsFactory.getTeam_Record(recvalue/*, team*/);
 
         players.add(player);

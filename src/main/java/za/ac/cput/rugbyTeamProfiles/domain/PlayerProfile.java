@@ -22,8 +22,8 @@ public class PlayerProfile implements Serializable {
     private double weight;
     private  int test;
     private  int test_tries;
-    @Embedded
-    private PlayerRecords player_record;
+   /* @Embedded
+    private PlayerRecords player_record;*/
    // private TeamProfile team_profile;
 
     private PlayerProfile(){}
@@ -42,7 +42,7 @@ public class PlayerProfile implements Serializable {
         weight = builder.weight;
         test = builder.test;
         test_tries = builder.test_tries;
-        player_record = builder.player_record;
+        //player_record = builder.player_record;
     //    team_profile = builder.team_profile;
         id =builder.id;
     }
@@ -70,9 +70,9 @@ public class PlayerProfile implements Serializable {
     public int getTest_tries() {
         return test_tries;
     }
-    public PlayerRecords getPlayer_record() {
+ /*   public PlayerRecords getPlayer_record() {
         return player_record;
-    }
+    }*/
  /*   public TeamProfile getTeam_profile() {
         return team_profile;
     }*/
@@ -88,7 +88,7 @@ public class PlayerProfile implements Serializable {
         private double weight;
         private int test;
         private int test_tries;
-        private PlayerRecords player_record;
+      //  private PlayerRecords player_record;
        // private TeamProfile team_profile;
 
 
@@ -129,10 +129,10 @@ public class PlayerProfile implements Serializable {
             this.test_tries = val;
             return this;
         }
-        public Builder player_record(PlayerRecords val){
+       /* public Builder player_record(PlayerRecords val){
             this.player_record = val;
             return this;
-        }
+        }*/
        /* public Builder team_profile(TeamProfile val){
            this.team_profile = val;
             return this;
@@ -147,7 +147,7 @@ public class PlayerProfile implements Serializable {
             weight = val.weight;
             test = val.test;
             test_tries = val.test_tries;
-            player_record = val.player_record;
+         ///   player_record = val.player_record;
            // team_profile = val.team_profile;
             id =val.id;
 

@@ -1,6 +1,7 @@
 package za.ac.cput.rugbyTeamProfiles.services.Imp;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import za.ac.cput.rugbyTeamProfiles.domain.PlayerProfile;
 import za.ac.cput.rugbyTeamProfiles.domain.TeamProfile;
 import za.ac.cput.rugbyTeamProfiles.repository.PlayerProfileRepository;
@@ -12,6 +13,7 @@ import java.util.List;
 /**
  * Created by thule on 2015/09/26.
  */
+@Service
 public class PlayerProfileProfileServiceImpl implements PlayerProfileService {
 
     @Autowired
@@ -40,8 +42,7 @@ public class PlayerProfileProfileServiceImpl implements PlayerProfileService {
     @Override
     public List<PlayerProfile> findAll() {
         List<PlayerProfile> allPlayers = new ArrayList<>();
-        Iterable<PlayerProfile> players = repository.findAll();
-        for (PlayerProfile playerProfile : players) {
+        for (PlayerProfile playerProfile : repository.findAll()) {
             allPlayers.add(playerProfile);
         }
         return allPlayers;

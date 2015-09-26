@@ -1,5 +1,6 @@
 package za.ac.cput.rugbyTeamProfiles.api;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -7,11 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 import za.ac.cput.rugbyTeamProfiles.domain.PlayerProfile;
-import za.ac.cput.rugbyTeamProfiles.domain.TeamProfile;
-import za.ac.cput.rugbyTeamProfiles.services.Imp.PlayerProfileProfileServiceImpl;
-import za.ac.cput.rugbyTeamProfiles.services.Imp.TeamProfileServiceImpl;
 import za.ac.cput.rugbyTeamProfiles.services.PlayerProfileService;
-import za.ac.cput.rugbyTeamProfiles.services.TeamProfileService;
 
 import java.util.List;
 
@@ -22,12 +19,14 @@ import java.util.List;
 @RequestMapping("/api/**")
 public class PlayersProfileApi {
 
-    private PlayerProfileService service = new PlayerProfileProfileServiceImpl();
+    @Autowired
+    PlayerProfileService service /*= new PlayerProfileProfileServiceImpl()*/;
     //-------------------Retrieve All teams--------------------------------------------------------
 
     @RequestMapping(value="/players", method= RequestMethod.GET)///get teams
     public ResponseEntity<List<PlayerProfile>> getPlayers(){
         List<PlayerProfile> players = service.findAll();
+        System.out.println(players.size());
         if(players.isEmpty()){
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
         }

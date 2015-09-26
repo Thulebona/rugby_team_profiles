@@ -1,5 +1,6 @@
 package za.ac.cput.rugbyTeamProfiles.api;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -7,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 import za.ac.cput.rugbyTeamProfiles.domain.TeamProfile;
-import za.ac.cput.rugbyTeamProfiles.services.Imp.TeamProfileServiceImpl;
 import za.ac.cput.rugbyTeamProfiles.services.TeamProfileService;
 
 import java.util.List;
@@ -20,7 +20,8 @@ import java.util.List;
 @RequestMapping("/api/**")
 public class TeamProfileApi {
 
-    private TeamProfileService service = new TeamProfileServiceImpl();
+    @Autowired
+    TeamProfileService service /*= new TeamProfileServiceImpl()*/;
     //-------------------Retrieve All teams--------------------------------------------------------
     @RequestMapping(value="/teams", method= RequestMethod.GET)///get teams
     public ResponseEntity<List<TeamProfile>> getTeams(){
