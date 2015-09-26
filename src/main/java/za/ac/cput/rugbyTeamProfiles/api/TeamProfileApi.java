@@ -19,7 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/**")
 public class TeamProfileApi {
-    
+
     private TeamProfileService service = new TeamProfileServiceImpl();
     //-------------------Retrieve All teams--------------------------------------------------------
     @RequestMapping(value="/teams", method= RequestMethod.GET)///get teams
