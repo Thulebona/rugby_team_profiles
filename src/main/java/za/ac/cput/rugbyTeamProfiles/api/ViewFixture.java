@@ -15,7 +15,7 @@ import java.util.List;
  * Created by THULEBONA on 2015-05-20.
  */
 @RestController
-@RequestMapping(value = "/fixture/**")
+@RequestMapping(value = "/api/**")
 public class ViewFixture {
 
     @Autowired
@@ -29,5 +29,7 @@ public class ViewFixture {
     public MatchResults getResults(@PathVariable Long id){
         return services.getResults(id);
     }
+
+
 
 }
