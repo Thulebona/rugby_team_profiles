@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d392d03-66c0-43e3-89fb-24a8fcd3b6a5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java" />
     </list>
     <ignored path="rugby_team_profiles.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,12 +81,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogRankingServicesTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogRankingServicesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0107527">
-              <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogTestCrud.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.2508961">
+              <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,16 +136,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="80" column="25" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -202,6 +204,7 @@
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/api/ViewProfile.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/TestSuite.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java" />
       </list>
     </option>
   </component>
@@ -868,7 +871,7 @@
       <workItem from="1443099850981" duration="4982000" />
       <workItem from="1443179787306" duration="3925000" />
       <workItem from="1443184456729" duration="877000" />
-      <workItem from="1443256043459" duration="4311000" />
+      <workItem from="1443256043459" duration="4613000" />
     </task>
     <task id="LOCAL-00001" summary="fixed the routes">
       <created>1443261603426</created>
@@ -880,7 +883,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14095000" />
+    <option name="totallyTimeSpent" value="14397000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1212,15 +1215,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/repoTestSuite.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1363,9 +1357,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0107527">
-          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2508961">
+          <caret line="57" column="3" selection-start-line="57" selection-start-column="3" selection-end-line="57" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

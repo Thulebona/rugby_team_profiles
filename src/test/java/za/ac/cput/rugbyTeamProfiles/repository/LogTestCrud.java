@@ -1,6 +1,7 @@
 package za.ac.cput.rugbyTeamProfiles.repository;
 
 import org.junit.Assert;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
@@ -54,7 +55,7 @@ public class LogTestCrud extends AbstractTestNGSpringContextTests {
         playRec_value = new HashMap<String, String>();
     }
 
-   // @Test
+    @Test
     public void testCreate() throws Exception {
         //add team profile map;
         value.put("teamName", "Sharks");
