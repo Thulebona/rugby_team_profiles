@@ -30,7 +30,7 @@ public class VenueTest {
 
     }
 
-    @Test
+   // @Test
     public void testVenueUpDate() throws Exception {
         //Venue.Builder(val.get("name")).location(val.get("location")).number_of_seat(seats).build()
         value.put("name","Newlands Stadium");

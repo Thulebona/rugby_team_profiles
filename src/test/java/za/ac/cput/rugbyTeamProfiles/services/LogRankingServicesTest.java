@@ -113,7 +113,6 @@ public class LogRankingServicesTest extends AbstractTestNGSpringContextTests {
         log_ranking = TeamsLogFactory.getTeams_log_ranking(team, logValues);
         repository.save(log_ranking);
         id = team.getId();
-        System.out.println("\n\n\n\n\n\n"+id+"\n\n\n\n\n\n");
         Assert.assertNotNull(id);
 
     }
