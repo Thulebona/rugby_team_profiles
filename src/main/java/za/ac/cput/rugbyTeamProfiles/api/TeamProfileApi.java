@@ -23,13 +23,13 @@ public class TeamProfileApi {
     @Autowired
     TeamProfileService service /*= new TeamProfileServiceImpl()*/;
     //-------------------Retrieve All teams--------------------------------------------------------
-    @RequestMapping(value="/teams", method= RequestMethod.GET)///get teams
+    @RequestMapping(value="/teams", method= RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)///get teams
     public ResponseEntity<List<TeamProfile>> getTeams(){
         List<TeamProfile> teams = service.findAll();
         if(teams.isEmpty()){
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
         }
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(teams,HttpStatus.OK);
     }
     //-------------------Retrieve Team Subject--------------------------------------------------------
     @RequestMapping(value = "/team/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)

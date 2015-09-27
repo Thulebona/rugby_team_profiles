@@ -2,6 +2,7 @@ package za.ac.cput.rugbyTeamProfiles.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import za.ac.cput.rugbyTeamProfiles.domain.TeamsLogRanking;
@@ -19,13 +20,13 @@ public class LogRankingApi  {
     LogRankingServices service/* = new LogRenkingServicesImp()*/;
     //-------------------Retrieve All teams--------------------------------------------------------
 
-    @RequestMapping(value="/log", method= RequestMethod.GET)///get teams
+    @RequestMapping(value="/table", method= RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)///get teams
     public ResponseEntity<List<TeamsLogRanking>> getPlayers(){
         List<TeamsLogRanking> teams = service.findAll();
         if(teams.isEmpty()){
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
         }
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity<>(teams,HttpStatus.OK);
     }
 
 /*    //-------------------Retrieve Team Subject--------------------------------------------------------

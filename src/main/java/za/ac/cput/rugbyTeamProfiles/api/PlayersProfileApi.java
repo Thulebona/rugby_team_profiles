@@ -23,14 +23,14 @@ public class PlayersProfileApi {
     PlayerProfileService service /*= new PlayerProfileProfileServiceImpl()*/;
     //-------------------Retrieve All teams--------------------------------------------------------
 
-    @RequestMapping(value="/players", method= RequestMethod.GET)///get teams
+    @RequestMapping(value="/players", method= RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)///get teams
     public ResponseEntity<List<PlayerProfile>> getPlayers(){
         List<PlayerProfile> players = service.findAll();
-        System.out.println(players.size());
+        System.out.println(new ResponseEntity< List<PlayerProfile>>(HttpStatus.OK));
         if(players.isEmpty()){
-            return new ResponseEntity<>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
+            return new ResponseEntity< List<PlayerProfile>>(HttpStatus.NO_CONTENT);//You many decide to return HttpStatus.NOT_FOUND
         }
-        return new ResponseEntity<>(HttpStatus.OK);
+        return new ResponseEntity< >(players,HttpStatus.OK);
     }
 
     //-------------------Retrieve Team Subject--------------------------------------------------------
