@@ -20,7 +20,7 @@ public class LogRankingApi  {
     LogRankingServices service/* = new LogRenkingServicesImp()*/;
     //-------------------Retrieve All teams--------------------------------------------------------
 
-    @RequestMapping(value="/table", method= RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)///get teams
+    @RequestMapping(value="/table", method= RequestMethod.GET,produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<List<TeamsLogRanking>> getPlayers(){
         List<TeamsLogRanking> teams = service.findAll();
         if(teams.isEmpty()){

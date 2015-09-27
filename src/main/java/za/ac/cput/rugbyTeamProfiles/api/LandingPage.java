@@ -30,7 +30,7 @@ public class LandingPage {
         System.out.println("10"+player.getId());
 
         service.save(player);
-       System.out.println("1 thulebona" + player.getId());
+        System.out.println("1 thulebona" + player.getId());
         HttpHeaders headers = new HttpHeaders();
         headers.setLocation(ucBuilder.path("/player/{id}").buildAndExpand(player.getId()).toUri());
         return new ResponseEntity<>(headers, HttpStatus.CREATED);

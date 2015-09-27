@@ -16,8 +16,8 @@ public class TeamProfile implements Serializable {
     private String league;
     private String home_Ground;
     private String headCoach;
-    @Embedded
-    private TeamRecords records;
+   /* @Embedded
+    private TeamRecords records;*/
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.EAGER )
     @JoinColumn(name = "team_profile_id")
     private List<PlayerProfile> players;
@@ -30,7 +30,7 @@ public class TeamProfile implements Serializable {
         this.league = builder.league;
         this.home_Ground = builder.home_Ground;
         this.headCoach = builder.headCoach;
-        this.records = builder.records;
+       // this.records = builder.records;
         this.players =builder.players;
     }
     public Long getId() {
@@ -48,9 +48,9 @@ public class TeamProfile implements Serializable {
     public String getHeadCoach() {
         return headCoach;
     }
-    public TeamRecords getRecords() {
+   /* public TeamRecords getRecords() {
         return records;
-    }
+    }*/
     public List<PlayerProfile> getPlayers() {
         return players;
     }
@@ -97,7 +97,7 @@ public class TeamProfile implements Serializable {
             this.league = val.league;
             this.home_Ground = val.home_Ground;
             this.headCoach = val.headCoach;
-            this.records = val.records;
+        //   this.records = val.records;
             this.players =val.players;
             this.id = val.id;
 
