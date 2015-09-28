@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d392d03-66c0-43e3-89fb-24a8fcd3b6a5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.java" afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/services/LogRankingServicesTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/repository/LogTestCrud.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile$Builder.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile$Builder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.class" afterPath="$PROJECT_DIR$/target/classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.class" afterPath="$PROJECT_DIR$/target/test-classes/za/ac/cput/rugbyTeamProfiles/domain/PlayerProfileTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rugby_team_profiles.iws" />
@@ -1036,7 +1035,7 @@
       <workItem from="1443270746803" duration="19657000" />
       <workItem from="1443339816708" duration="2774000" />
       <workItem from="1443381106521" duration="5924000" />
-      <workItem from="1443423984211" duration="1441000" />
+      <workItem from="1443423984211" duration="1587000" />
     </task>
     <task id="LOCAL-00001" summary="fixed the routes">
       <created>1443261603426</created>
@@ -1056,11 +1055,17 @@
       <option name="project" value="LOCAL" />
       <updated>1443386661033</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ready for android">
+      <created>1443433120831</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1443433120831</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47807000" />
+    <option name="totallyTimeSpent" value="47953000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
