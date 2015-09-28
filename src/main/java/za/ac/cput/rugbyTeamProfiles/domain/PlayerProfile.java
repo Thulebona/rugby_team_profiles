@@ -16,7 +16,7 @@ public class PlayerProfile implements Serializable {
     @Column(unique = true)
     private String playerID;
     private String player_name;
-    private String dateOB;
+  //  private String dateOB;
     private String position;
     private double height;
     private double weight;
@@ -36,7 +36,7 @@ public class PlayerProfile implements Serializable {
 
         player_name = builder.player_name;
         playerID = builder.playerID;
-        dateOB = builder.dateOB;
+      //  dateOB = builder.dateOB;
         position = builder.position;
         height = builder.height;
         weight = builder.weight;
@@ -52,9 +52,9 @@ public class PlayerProfile implements Serializable {
     public String getPlayerID() {
         return playerID;
     }
-    public String getDateOB() {
+   /* public String getDateOB() {
         return dateOB;
-    }
+    }*/
     public String getPosition() {
         return position;
     }
@@ -141,7 +141,7 @@ public class PlayerProfile implements Serializable {
 
             player_name = val.player_name;
             playerID = val.playerID;
-            dateOB = val.dateOB;
+           /// dateOB = val.dateOB;
             position = val.position;
             height = val.height;
             weight = val.weight;
